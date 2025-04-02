@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón Filosófico</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>El Rincón Filosófico</h1>
+    </header>
+
+    <div class="container mt-4">
+        <section id="inicio" class="mb-4 p-3 bg-light rounded">
+            <h2>Bienvenido a Filosofía en la Web</h2>
+            <p>Explora el mundo de la filosofía, un mundo totalmente desapercibido, pero con mucha riqueza intelectual. 
+               Anímate a conocer la vida de estos grandes pensadores.</p>
+        </section>
+
+        <section id="corrientes" class="mb-4 p-3 bg-light rounded">
+            <h2>Corrientes Filosóficas</h2>
+            <ul>
+                <li><strong>Filosofía Antigua:</strong> Sócrates, Platón, Aristóteles.</li>
+                <li><strong>Filosofía Moderna:</strong> Descartes, Kant, Hume.</li>
+                <li><strong>Filosofía Contemporánea:</strong> Nietzsche, Heidegger, Sartre.</li>
+            </ul>
+        </section>
+
+        <section id="filosofos" class="mb-4 p-3 bg-light rounded">
+            <h2>Filósofos Destacados</h2>
+            <ul>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/socrates.html">Sócrates</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/immanuel-kant.html">Kant</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/friedrich-nietzsche.html">Nietzsche</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/arthur-schopenhauer.html">Schopenhauer</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/thomas-hobbes.html">Hobbes</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/nicolas-maquiavelo.html">Maquiavelo</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/kierkegaard.html">Kierkegaard</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/07/karl-marx.html">Marx</a></li>
+                <li><a target="_blank" href="https://www.lineasdeltiempo.com/2020/11/jean-paul-sartre.html">Sartre</a></li>
+            </ul>
+        </section>
+
+        <section id="comentarios" class="mb-4 p-3 bg-light rounded">
+            <h2>¡Mándanos tu opinión!</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" class="form-control" placeholder="Opinión o reflexión" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <div class="text-center mt-4">
+            <img src="meme.jpeg" width="500" class="img-fluid rounded"/>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p>&copy; 2025 El Rincón Filosófico. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
